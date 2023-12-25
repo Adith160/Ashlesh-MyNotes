@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import styles from './Styles/Detail.module.css';
+import styles from './Styles/ComponentDetails.module.css';
 import sendImg from '../Assets/Images/send.svg';
 
-function DetailComponent(props) {
+function ComponentDetails(props) {
     const noteKey = props.gkey;
     const color = props.color;
     const noteTitle = props.name;
@@ -72,4 +72,4 @@ function DetailComponent(props) {
     );
 }
 
-export default DetailComponent;
+export default ComponentDetails;
